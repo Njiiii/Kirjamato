@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kirjamato", "Kirjamato\Kirjamato.csproj", "{76185400-FC29-47D7-BFE6-34EF23198454}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76185400-FC29-47D7-BFE6-34EF23198454}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76185400-FC29-47D7-BFE6-34EF23198454}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76185400-FC29-47D7-BFE6-34EF23198454}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76185400-FC29-47D7-BFE6-34EF23198454}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E80E368E-25B9-46BF-B44A-59C66678D56A}
+	EndGlobalSection
+EndGlobal
