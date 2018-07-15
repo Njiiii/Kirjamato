@@ -15,25 +15,16 @@ using System.Windows.Shapes;
 namespace Kirjamato
 {
     /// <summary>
-    /// Interaction logic for Window1.xaml
+    /// Interaction logic for AccountOptions.xaml
     /// </summary>
-    public partial class Window1 : Window
+    public partial class AccountOptions : Window
     {
-        public Window1()
+        public AccountOptions()
         {
             InitializeComponent();
         }
 
-        private void saveNewUserButton_Click(object sender, RoutedEventArgs e)
-        {
-            //SAVE NEW USERS INFO TO DATABASE
+        //ACCOUNT OPTIONS HAS OPTIONS FOR DIFFERENT ACCOUNT SETTING, CHANGING PASSWORD/ACCOUNTNAME/PERSONAL INFORMATIONS ETC. ETC.
 
-        }
-
-        private void BackToLoginButton_Click(object sender, RoutedEventArgs e)
-        {
-            //CLOSES USER CREATION WINDOW
-
-        }
     }
 }
