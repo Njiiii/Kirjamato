@@ -5,31 +5,31 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Kirjamato"
         mc:Ignorable="d"
-        Title="" Height="450" Width="450">
+        Title="" Height="350" Width="350">
 
-    <Viewbox StretchDirection="Both" Stretch="Uniform">
-        <Grid>
+    <Grid>
 
-            <Button x:Name="saveNewUserButton" Content="Save account" HorizontalAlignment="Left" Margin="205,240,0,0" VerticalAlignment="Top" Width="90" Click="saveNewUserButton_Click"/>
+        <Button x:Name="SaveNewUserButton" Content="Save account" HorizontalAlignment="Left" Margin="62,237,0,0" VerticalAlignment="Top" Width="90" Click="SaveNewUserButton_Click"/>
 
-            <TextBlock HorizontalAlignment="Left" Margin="90,70,0,0" TextWrapping="Wrap" Text="First name" VerticalAlignment="Top" Height="20" Width="62"/>
-            <TextBlock HorizontalAlignment="Left" Margin="90,100,0,0" TextWrapping="Wrap" Text="Last name" VerticalAlignment="Top" Height="20" Width="62"/>
-            <TextBlock HorizontalAlignment="Left" Margin="90,130,0,0" TextWrapping="Wrap" Text="Username" VerticalAlignment="Top" Height="20" Width="62"/>
-            <TextBlock HorizontalAlignment="Left" Margin="90,160,0,0" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top" Height="20" Width="62"/>
-            <TextBlock HorizontalAlignment="Left" Margin="63,190,0,0" TextWrapping="Wrap" Text="Password again" VerticalAlignment="Top" Height="20" Width="89"/>
+        <TextBlock HorizontalAlignment="Left" Margin="90,70,0,0" TextWrapping="Wrap" Text="First name" VerticalAlignment="Top" Height="20" Width="62"/>
+        <TextBlock HorizontalAlignment="Left" Margin="90,100,0,0" TextWrapping="Wrap" Text="Last name" VerticalAlignment="Top" Height="20" Width="62"/>
+        <TextBlock HorizontalAlignment="Left" Margin="90,130,0,0" TextWrapping="Wrap" Text="Username" VerticalAlignment="Top" Height="20" Width="62"/>
+        <TextBlock HorizontalAlignment="Left" Margin="90,160,0,0" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top" Height="20" Width="62"/>
+        <TextBlock HorizontalAlignment="Left" Margin="63,190,0,0" TextWrapping="Wrap" Text="Password again" VerticalAlignment="Top" Height="20" Width="89"/>
 
-            <TextBox HorizontalAlignment="Left" Height="20" Margin="173,70,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="122"/>
-            <TextBox HorizontalAlignment="Left" Height="20" Margin="173,100,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="122"/>
-            <TextBox HorizontalAlignment="Left" Height="20" Margin="173,130,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="122"/>
+        <TextBox HorizontalAlignment="Left" Height="20" Margin="173,70,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="122"/>
+        <TextBox HorizontalAlignment="Left" Height="20" Margin="173,100,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="122"/>
+        <TextBox HorizontalAlignment="Left" Height="20" Margin="173,130,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="122"/>
 
-            <PasswordBox HorizontalAlignment="Left" Margin="173,160,0,0" VerticalAlignment="Top" Height="20" Width="122"/>
-            <PasswordBox HorizontalAlignment="Left" Margin="173,190,0,0" VerticalAlignment="Top" Height="20" Width="122"/>
+        <PasswordBox HorizontalAlignment="Left" Margin="173,160,0,0" VerticalAlignment="Top" Height="20" Width="122"/>
+        <PasswordBox HorizontalAlignment="Left" Margin="173,190,0,0" VerticalAlignment="Top" Height="20" Width="122"/>
 
-            <TextBlock HorizontalAlignment="Center" Margin="0,25,0,0" TextWrapping="Wrap" Text="CREATE NEW ACCOUNT" VerticalAlignment="Top" Height="15" Width="165"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,25,0,0" TextWrapping="Wrap" Text="CREATE NEW ACCOUNT" VerticalAlignment="Top" Height="15" Width="165"/>
+
+        <Button x:Name="ExitToLoginButton" Content="Exit to Login" HorizontalAlignment="Left" Margin="62,271,0,0" VerticalAlignment="Top" Width="90" Click="ExitToLoginButton_Click" />
         
-            <Button x:Name="BackToLoginButton" Content="Exit to Login" HorizontalAlignment="Left" Margin="205,269,0,0" VerticalAlignment="Top" Width="90" Click="BackToLoginButton_Click"/>
+        <Label x:Name="AccountSavedNotification" Content="New account saved" HorizontalAlignment="Left" Margin="173,234,0,0" VerticalAlignment="Top" Visibility="Hidden"/>
 
 
-        </Grid>
-    </Viewbox>
+    </Grid>
 </Window>

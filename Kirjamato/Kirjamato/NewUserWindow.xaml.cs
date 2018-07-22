@@ -24,16 +24,15 @@ namespace Kirjamato
             InitializeComponent();
         }
 
-        private void saveNewUserButton_Click(object sender, RoutedEventArgs e)
+        private void SaveNewUserButton_Click(object sender, RoutedEventArgs e)
         {
-            //SAVE NEW USERS INFO TO DATABASE
-
+            //SAVE GIVEN ACCOUNTINFO TO THE USER DATABASE
+            AccountSavedNotification.Visibility = Visibility.Visible;
         }
 
-        private void BackToLoginButton_Click(object sender, RoutedEventArgs e)
+        private void ExitToLoginButton_Click(object sender, RoutedEventArgs e)
         {
-            //CLOSES USER CREATION WINDOW
-
+            //CLOSE ACCOUNT CREATION WINDOW
         }
     }
 }

@@ -18,6 +18,10 @@ namespace Kirjamato
     
     public partial class MainWindow : Window
     {
+        UserPage userPage = new UserPage();
+        AdminPage adminPage = new AdminPage();
+        Window1 userCreationWindow = new Window1();
+
         public MainWindow()
         {
             InitializeComponent();
@@ -29,17 +33,19 @@ namespace Kirjamato
         {
             String givenAccountname = UsernameBox.Text;
             String givenPassword = PasswordBox.Password;
-
-
             
             
+            if (givenAccountname == "" && givenPassword == "")
+                this.Content = userPage;
+
+            if (givenAccountname == "admin" && givenPassword == "admin")
+                this.Content = adminPage;
         }
 
         //Create new user -button
         //Opens a new window, where user can create a new account
         private void NewUserButton_Click(object sender, RoutedEventArgs e)
         {
-            Window1 userCreationWindow = new Window1();
             userCreationWindow.Show();
         }
     }
